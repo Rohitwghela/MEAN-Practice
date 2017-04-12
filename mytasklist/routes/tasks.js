@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var mongojs = require('mongojs');
 //var db = mongojs('mongodb://rohitwaghela:roh92wag357@ds129050.mlab.com:29050/mytasklist_rohit', ["tasks"], { authMechanism: 'ScramSHA1' });
-var db = mongojs('mongodb://rohitwaghela:roh92wag357@ds129050.mlab.com:29050/mytasklist_rohit', ["tasks"]);
+var db = mongojs('mongodb://rohitwaghela:*****@ds129050.mlab.com:29050/mytasklist_rohit', ["tasks"]);
 
 //Get All Tasks
 router.get('/tasks', function(req, res, next) {
